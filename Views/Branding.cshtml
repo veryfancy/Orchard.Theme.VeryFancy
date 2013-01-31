@@ -1,7 +1,9 @@
 ﻿@{
     var homeUrl = Href("~/");
+    var tuxBadgeUrl = Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/Content/Images/tux-badge.png"));
 }
 <div id="branding">
+    <img src="@tuxBadgeUrl" alt="tux badge" />
     <h1>
         <a href="@homeUrl">@WorkContext.CurrentSite.SiteName</a>
     </h1>
