@@ -459,5 +459,5 @@ a.rss {
 
 /* this is meant to add bottom margin to unordered lists that're within post content */
 .content-item ul {
-    margin: 0 0 1em;    
+    margin: 0 1.5em 1em;    
 }
